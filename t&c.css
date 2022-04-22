@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    padding:20px;
+    margin:10px;
+    display:center;
+}
+

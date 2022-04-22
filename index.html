@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>HOME</title>
+</head>
+<body  ><header >
+<nav  class="navbar navbar-expand-lg sticky-lg-top"style="background-color: #07066e;" >
+    <div id="main">
+        <button class="openbtn" style="left:0px;" onclick="openNav()">☰</button>
+    
+    </div>
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="SHOP.gif" ; style="border-radius: 50px;height: 40px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><img style="height: 40px;border-radius: 50%;" src="address--v.png"></a>
+                </li>
+               
+                </li>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                       <img style="border-radius: 50%;height:50px;"src="bag.png">
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">OPEN ORDERS</a></li>
+                        <li><a class="dropdown-item" href="#">CANCLLED ORDERS</a></li>
+                       
+                        <li><a class="dropdown-item" href="#">ARCHIVE ORDERS</a></li>
+                    </ul>
+                </li>
+               
+            </ul>
+            <form class="d-flex" style="position: fixed;left:500px;" >
+            <div class="input-group mb-3">
+                <button class="btn btn-outline-secondary " type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false" style="background-color: rgba(105, 105, 105, 0);" >ALL</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CLOTHES</a></li>
+                    <li><a class="dropdown-item" href="#">MOBILE AND GADGET</a></li>
+                    <li><a class="dropdown-item" href="#">HOME AND KITCHEN APPLICIANCE</a></li>
+                    <li>
+                    <a class="dropdown-item" href="#">BOOK</a></li>
+                    </li>
+                    <li><a class="dropdown-item" href="#">INSURANCE</a></li>
+                </ul>
+            
+                <input type="text" class="form-control" placeholder="search any things" aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                   
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2" style="background-color:rgba(105, 105, 105, 0);"><span class="material-icons">
+                   <img src="twotone_search_white_24dp.png">
+                </span></button>
+            </div>
+            </form>
+            
+        </div>
+    </div>
+    <img style="background-color:#07066e;overflow:hidden;border-radius: 50px;"src="cart.png">&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+    <button onclick="darkMode()" id="dark" style="background-color:#07066e;overflow:hidden;border-radius: 50px;" ><img style="border-radius: 50%;height:40px"src="moon.png"></button>
+    <button onclick="lightMode()" id="dark" style="background-color:#07066e;overflow:hidden;border-radius: 50px;"><img style="border-radius: 50%;height:40px" src="sun.png"></button>
+    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<a href="project.html"><img style="overflow: hidden;" src="chatbot.png"></a><a href="signup.html"><img style="border-radius: 50%;height:50px;width:50px"src="account.png"></a><script> 
+        function darkMode() {
+                var element = document.body;
+                var content = document.getElementById("dark");
+                element.className = "dark-mode";
+               
+            }
+            function lightMode() {
+                    var element = document.body;
+                    var content = document.getElementById("white");
+                    element.className = "light-mode";
+                    content.innerText = "Dark Mode is OFF";
+                }
+    </script>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">SETTING</a>
+        <a href="#">PROFILE</a>
+        <a href="#">ADDRESS</a>
+        <a href="#">CONTACT US</a>
+    </div>
+    
+</nav>
+
+<img style="margin: 0px;overflow: hidden;"src="Front-Banner-2-min.png"height="350px"width="1260px">
+
+<a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_NavnOP_2a1_w?node=27021427031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-9&pf_rd_r=7AAH72YDGNX08NN6QRK6&pf_rd_t=101&pf_rd_p=b0287220-5456-4654-84c2-d2a9ecece7c2&pf_rd_i=976419031">
+<img src="D28069901_IN_CEPC_Electronics_teaser-graphics_Jupiter-P1_Aug21_1500_5 (1).jpg"width="1260px"></a>
+<a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_header_8a1_w?node=26851561031&gb_f_GB-SUPPLE=MARKETING_ID:jup21_wld&gb_ttl_GB-SUPPLE=Top%2520deals%2520on%2520Smartphones&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=center-1&pf_rd_r=JG5MF2QQMSXGB5YNV03B&pf_rd_t=101&pf_rd_p=previewPlacement_center-1&pf_rd_i=1320006031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-12&pf_rd_r=98M35VS7HQMH9AJ5PW58&pf_rd_t=101&pf_rd_p=2fed350c-4faa-4758-b823-17fde6cb3d26&pf_rd_i=1389401031"><img src="D30482576_Jupiter21_Phase3_WLD_Category_1242x450_PHASE-3.jpg" width="1260px"></a>
+<a href="https://www.amazon.in/b?ie=UTF8&node=13446040031">
+<img  src="pavitb_2017-12-20T12-46_3acad9_1500x300.jpg"width="1260px"></a>
+
+<a href ="https://www.amazon.in/home-products-sale/b?ie=UTF8&node=12414705031"><img src="home furshing.jpg"width="1260px"></a>
+<a href="https://www.amazon.in/b/?_encoding=UTF8&node=976392031&ref_=sv_top_elec_mega_2">
+<img src="Laptop_770x300new.jpg" width="1260px"></a>
+
+<img src="PreBooking-LP-Mobile_03.jpg" width="1260px">
+<a href="https://www.amazon.in/b/ref=s9_acss_bw_cg_header_8a1_w?node=1389402031&pf_rd_m=A1K21FY43GMZF8&pf_rd_s=merchandised-search-6&pf_rd_r=GXX2X3VT41B2B0QPSP2Z&pf_rd_t=101&pf_rd_p=35c21527-cf0c-495f-8599-69ce2143ae8d&pf_rd_i=1389401031">
+<img src="PC_1500_gold.jpg" width="1260px"></a>
+<!-- Footer -->
+<footer class="page-footer font-small elegant-color">
+
+    <div class="color-primary">
+        <div class="container">
+
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                    <h6 class="mb-0">Get connected with us on social networks!</h6>
+                </div>
+                <!-- Grid column -->
+<img style="border-radius: 50%;height: 45px;width: 55px;"  src="twitter.png">&nbsp;<img
+    style="border-radius: 50%;height: 45px;width: 55px;"  src="insta.png">&nbsp;<img
+    style="border-radius: 50%;height: 45px;width: 55px;" src="gmail.png">&nbsp;<img
+    style="border-radius: 50%;height: 45px;width: 55px;" src="fb.png">
+                <!-- Grid column -->
+                <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram white-text"> </i>
+                    </a>
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+    </div>
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left pt-4 pt-md-5">
+
+        <!-- Grid row -->
+        <div class="row mt-1 mt-md-0 mb-4 mb-md-0">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>About me</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <p class="foot-desc mb-0">WE ARE STUDENTS OF BCA FROM SRM INSITUTIE OF SCIENCE AND TECHNOLOGY.<br>
+                WE DEVLOPED WHAT WE LEARN AND WE ARE STILL LERNNING</p>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Products</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="list-unstyled foot-desc">
+                    <li class="mb-2">
+                        <a href="#!">Clothes</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Laptop</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Mobile</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Home Appiliancee</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Books</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Useful links</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="list-unstyled foot-desc">
+                    <li class="mb-2">
+                        <a href="#!">Your Account</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Your Orders</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Become an Affiliate</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Shipping Rates</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="#!">Help</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mt-3 mt-md-0 mb-0 mb-md-4">
+
+                <!-- Links -->
+                <h5>Contacts</h5>
+                <hr class="color-primary mb-4 mt-0 d-inline-block mx-auto w-60">
+
+                <ul class="fa-ul foot-desc ml-4">
+                    <li class="mb-2"><span class="fa-li"><i class="far fa-map"></i></span>SRM 
+                    </li>
+                    <li class="mb-2"><span class="fa-li"><i class="fas fa-phone-alt"></i></span>042 876 836 908</li>
+                    <li class="mb-2"><span class="fa-li"><i class="far fa-envelope"></i></span>cs@shopkart.com</li>
+                    <li><span class="fa-li"><i class="far fa-clock"></i></span>24*7</li>
+                </ul>
+
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </div>
+   
+    
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left pt-3 pt-md-5">
+    
+        <!-- Grid row -->
+        <div class="row mt-1 mt-md-0">
+    
+            <!-- Grid column -->
+          
+            <!-- Grid column -->
+    
+            <hr class="clearfix w-100 d-md-none">
+    
+            <!-- Grid column -->
+            <div class="col-md-6 mx-auto mt-4 pt-2 mt-md-0 pt-md-0 mb-5">
+    
+                <div class="md-form md-outline input-group my-0">
+                    <input type="text" id="email12" class="form-control form-control-sm" placeholder="Your email"
+                        aria-label="Your email" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-sm btn-outline-white my-0" type="button"
+                            style="padding-top: 8px; padding-bottom: 7px;background-color: #07066e;"><p style="color: white;" >Subscribe Now</p></button>
+                    </div>
+                </div>
+    
+            </div>
+            <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+    </div>
+   
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="index.html"> shopkart</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+</body>
+
+</html>
